@@ -70,7 +70,7 @@ function dragStart(event, id) {
 
     // If this is a text node, use its parent element.
 
-    if (dragObj.elNode.nodeType == 3)
+    if (dragObj.elNode.nodeType === 3)
       dragObj.elNode = dragObj.elNode.parentNode;
   }
 

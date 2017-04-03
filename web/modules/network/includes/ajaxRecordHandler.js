@@ -64,7 +64,7 @@ function sendAjaxRequest(request,params) {
 }
                                                     
 function handleResponse() {
-    if(http.readyState != 4)
+    if(http.readyState !== 4)
 	return;
     
     var response = http.responseText;
@@ -99,7 +99,7 @@ function extractScripts(e, dest) {
     } else {
 	var n = e.firstChild;
     	while ( n ) {
-    	    if ( n.nodeType == 1 ) 
+    	    if ( n.nodeType === 1 ) 
     		extractScripts(n, dest); //if it's an element node, recurse
     	    n = n.nextSibling;
     	}
