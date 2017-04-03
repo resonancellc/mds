@@ -52,9 +52,9 @@ function retr(url)
 	req.onreadystatechange = function()
 	{ 
 
-		if(req.readyState == 4)
+		if(req.readyState === 4)
 		{
-			if(req.status != 200)
+			if(req.status !== 200)
 			{
 				alert ("error code: "+ req.status +"error msg: "+ req.statusText)
 			} else
