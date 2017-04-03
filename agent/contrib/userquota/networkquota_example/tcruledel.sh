@@ -2,11 +2,8 @@
 # (c) 2009 Open Systems Specilists - Glen Ogilvie.  License: GPL
 # Example remove shell script
 
-# uid in decimal
-USERID=$1
-
 # uid in hex
-CLASSID=$2
+CLASSID=$1
 
 # rate limits must match those in tcruleadd.sh and setupTCrules.sh must be run if changed
 RATE="32kbps burst 0 ceil 32kbps"
