@@ -1,4 +1,5 @@
-# (c) 2011 Mandriva, http://www.mandriva.com
+# (c) 2011 Mandriva, http://www.mandriva.com/
+# (c) 2018 Siveo, http://www.siveo.net/
 #
 # This file is part of Management Console.
 #
